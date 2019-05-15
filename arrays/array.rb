@@ -29,5 +29,22 @@ puts my_hash['dog']
 puts my_hash['cat']
 
 # LOOP: loop through arrays and hashes
+ages.each do |age|
+  puts age.to_s
+end
 
+names.each do |name|
+  name.each do |n|
+    puts n.to_s
+  end
+end
 
+# hashes loop
+
+my_hash.each do |key, value|
+  puts "#{key}: #{value}"
+end
+
+my_hash.each do |_key, value|
+  puts value.to_s
+end
