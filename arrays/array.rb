@@ -40,7 +40,6 @@ names.each do |name|
 end
 
 # hashes loop
-
 my_hash.each do |key, value|
   puts "#{key}: #{value}"
 end
