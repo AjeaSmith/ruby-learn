@@ -1,3 +1,4 @@
+# in hash, using symbols for keys
 movies = {
     spiderman: 5,
     hulk: 5,
